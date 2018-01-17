@@ -30,4 +30,4 @@ npm test
 For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
 
 My notes:
-- I manually changed the version of uglifyjs-webpack-plugin in package.json, from ^1.1.1 to ^0.4.6
+- I manually changed the version of uglify js-webpack-plugin in package.json, from ^1.1.1 to ^0.4.6
