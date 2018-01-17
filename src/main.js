@@ -29,13 +29,13 @@ let metadataApiBaseUrl
 if (process.env.NODE_ENV === 'production') {
     metadataApiBaseUrl = 'http://api-series-de-tiempo.tasacionya.com/'
 } else {
-    metadataApiBaseUrl = 'http://localhost:8000/'
+    metadataApiBaseUrl = 'http://api-series-de-tiempo.tasacionya.com/' // 'http://localhost:8000/'
 }
 
 export const globalStore = new Vue({
     data: {
         metadataApiBaseUrl: metadataApiBaseUrl,
-        analyticsId: 'UA-11247975-11'
+        analyticsId: ''
     }
 })
 
